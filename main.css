@@ -1,0 +1,53 @@
+.main_body {
+  display: flex;
+  flex: 10;
+  max-width: 99vw;
+  height: 100vh;
+  background: url("https://cdn.gardenista.com/wp-content/uploads/2018/02/sempervivum-succulent-offshoot-mimi-giboin-1466x977.jpg");
+  flex-direction: column;
+}
+.top_info_block {
+  text-align: center;
+  flex: 2;
+  background-color: rgba(0,139,139, 0.5);
+}
+.bot_info_block {
+  text-align: center;
+  flex: 2;
+  background-color: rgba(150,139,139, 0.5);
+  }
+.linkContainer {
+  display: flex;
+  flex: 6;
+  flex-direction: row;
+}
+.linkBox {
+  width: 75%;
+  font-style: italic;
+  font-size: 80px;
+  text-align: center;
+  margin: 5%;
+  padding-top: 6%;
+  flex: 1;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  background-color: rgba(150,150,150, 0.5);
+  transition: all 0.3s;
+}
+.linkBox:hover {
+  transition: all 0.3s;
+  width: 75%;
+  font-style: italic;
+  font-size: 80px;
+  text-align: center;
+  margin: 5%;
+  flex: 1;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  background-color: rgba(150,150,150, 0.9);
+}
+.mainTitle {
+  text-align: center;
+}
